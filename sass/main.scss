@@ -1,6 +1,23 @@
 // cuustom variables
 $primary: #c29938;
+$light: #fbf5e5;
 
+// To add some colors to map, you have to import function & variables
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+
+$custom-theme-colors : (
+    "altlight": #f2ebfa,
+    "altdark" : #522192
+);
+
+// we need to MERGE our custom them color map WITH  the original theme map defined
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+
+// Finally we import the rest of the bootstrap at the bottom which will now use this updated,
+// it's mean : now we can use those other color classes for things like BgColor & font-color..
 // import bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
