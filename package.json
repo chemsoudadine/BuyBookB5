@@ -1,0 +1,22 @@
+{
+  "name": "buybookb5",
+  "version": "1.0.0",
+  "description": "Dedine Book",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemsoudadine/BuyBookB5.git"
+  },
+  "author": "Dedine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chemsoudadine/BuyBookB5/issues"
+  },
+  "homepage": "https://github.com/chemsoudadine/BuyBookB5#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
